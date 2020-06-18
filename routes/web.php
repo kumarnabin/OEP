@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,9 +20,3 @@ Auth::routes(['register'=>false]);
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(
-    ['middleware' => ['web', 'auth','checkRole'], 'prefix' => 'admin'], function()
-{
-    Route::resource('teachers', 'TeacherController');
-    
-});

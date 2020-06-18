@@ -1,0 +1,11 @@
+{
+    "name": "Globali/Teacher",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sanjeev Shrestha",
+            "email": "sanjeev@gmail.com"
+        }
+    ],
+    "require": {}
+}

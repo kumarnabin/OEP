@@ -48,7 +48,8 @@
         "psr-4": {
             "Tests\\": "tests/",
             "Access\\User\\":"packages/access/user/src",
-            "Client\\Project\\":"packages/client/project/src"
+            "Client\\Project\\":"packages/client/project/src",
+            "Globali\\Teacher\\":"packages/Globali/Teacher/src"
         }
     },
     "minimum-stability": "dev",
